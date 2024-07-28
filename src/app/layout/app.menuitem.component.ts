@@ -3,7 +3,6 @@ import { NavigationEnd, Router } from '@angular/router';
 import { animate, state, style, transition, trigger } from '@angular/animations';
 import { Subscription } from 'rxjs';
 import { filter } from 'rxjs/operators';
-import { MenuService } from './app.menu.service';
 import { LayoutService } from './service/app.layout.service';
 
 @Component({
